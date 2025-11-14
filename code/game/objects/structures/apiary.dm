@@ -495,11 +495,7 @@
 				highest_type = "magical"
 			if(plant_type == /datum/plant_def/swampweed)
 				highest_type = "mad"
-			if(plant_type == /datum/plant_def/jacksberry_poison)
-				highest_type = "poisonous"
-			if(plant_type == /datum/plant_def/alchemical/paris)
-				highest_type = "poisonous"
-			if(plant_type == /datum/plant_def/alchemical/atropa)
+			if(plant_type == /datum/plant_def/jacksberry_poison || plant_type == /datum/plant_def/alchemical/paris || plant_type == /datum/plant_def/alchemical/atropa)
 				highest_type = "poisonous"
 			else
 				highest_type = "default"
