@@ -245,7 +245,6 @@
 		"addictive" = /obj/item/reagent_containers/food/snacks/spiderhoney/honey/poppy,
 		"magical" = /obj/item/reagent_containers/food/snacks/spiderhoney/honey/luminescent,
 		"mad" = /obj/item/reagent_containers/food/snacks/spiderhoney/honey/mad,
-	//	"poisonous" = /obj/item/reagent_containers/food/snacks/spiderhoney/honey/toxic,
 	)
 
 /obj/structure/apiary/Initialize()
