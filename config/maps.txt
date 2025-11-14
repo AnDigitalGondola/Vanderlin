@@ -13,6 +13,10 @@ Format:
 	votable (is this map votable)
 endmap
 
+map roguetest
+	votable
+endmap
+
 map vanderlin
 	default
 	votable
