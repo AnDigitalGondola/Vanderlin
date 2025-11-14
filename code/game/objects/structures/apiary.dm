@@ -245,7 +245,7 @@
 		"addictive" = /obj/item/reagent_containers/food/snacks/spiderhoney/honey/poppy,
 		"magical" = /obj/item/reagent_containers/food/snacks/spiderhoney/honey/luminescent,
 		"mad" = /obj/item/reagent_containers/food/snacks/spiderhoney/honey/mad,
-		"poisonous" = /obj/item/reagent_containers/food/snacks/spiderhoney/honey/toxic,
+	//	"poisonous" = /obj/item/reagent_containers/food/snacks/spiderhoney/honey/toxic,
 	)
 
 /obj/structure/apiary/Initialize()
@@ -911,12 +911,12 @@
 	tastes = list("numbing sweetness" = 1, "a flash of white" = 1)
 	list_reagents = list(/datum/reagent/consumable/honey = 4, /datum/reagent/consumable/nutriment = 1, /datum/reagent/ozium = 10, /datum/reagent/medicine/herbal/herbalist_panacea = 5)
 
-/obj/item/reagent_containers/food/snacks/spiderhoney/honey/toxic
-	name = "honey"
-	desc = ""
-	icon_state = "honeycomb"
-	tastes = list("bitterness" = 1)
-	list_reagents = list(/datum/reagent/consumable/honey = 5, /datum/reagent/berrypoison = 5)
+// /obj/item/reagent_containers/food/snacks/spiderhoney/honey/toxic
+//	name = "honey"
+//	desc = ""
+//	icon_state = "honeycomb"
+//	tastes = list("bitterness" = 1)
+//	list_reagents = list(/datum/reagent/consumable/honey = 5, /datum/reagent/berrypoison = 5)
 
 /obj/item/reagent_containers/food/snacks/spiderhoney/honey/luminescent
 	name = "moon honey"
