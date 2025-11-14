@@ -501,6 +501,8 @@
 				highest_type = "poisonous"
 			if(plant_type == /datum/plant_def/alchemical/atropa)
 				highest_type = "poisonous"
+			else
+				highest_type = "default"
 
 	// Clear pollen sources after honey is determined
 	pollen_sources.Cut()

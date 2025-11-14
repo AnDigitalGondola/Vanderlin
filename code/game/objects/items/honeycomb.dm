@@ -18,12 +18,6 @@
 	pixel_x = base_pixel_x + rand(8,-8)
 	pixel_y = base_pixel_y + rand(8,-8)
 
-/obj/item/reagent_containers/food/snacks/spiderhoney/proc/set_reagent(reagent)
-	var/datum/reagent/R = GLOB.chemical_reagents_list[reagent]
-	if(istype(R))
-		name = "honeycomb ([R.name])"
-		reagents.add_reagent(R.type,5)
-
 /obj/item/reagent_containers/food/snacks/spiderhoney/honey
 	name = "honey"
 	icon_state = "honeycomb"
